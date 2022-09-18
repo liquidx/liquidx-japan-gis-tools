@@ -1,0 +1,30 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@tmcw/togeojson': ^5.2.2
+  '@types/geojson': ^7946.0.10
+  xmldom: ^0.6.0
+
+dependencies:
+  '@tmcw/togeojson': 5.2.2_@types+geojson@7946.0.10
+  '@types/geojson': 7946.0.10
+  xmldom: 0.6.0
+
+packages:
+
+  /@tmcw/togeojson/5.2.2_@types+geojson@7946.0.10:
+    resolution: {integrity: sha512-MXXatEzCWYsV6LYcDqEZ4owOMRkTMUl20eFSU7iE3eVdyWoOjUzVPc83fRG2N/elBsVl2jTas1wVKgSgpDDbcg==}
+    peerDependencies:
+      '@types/geojson': '*'
+    dependencies:
+      '@types/geojson': 7946.0.10
+    dev: false
+
+  /@types/geojson/7946.0.10:
+    resolution: {integrity: sha512-Nmh0K3iWQJzniTuPRcJn5hxXkfB1T1pgB89SBig5PlJQU5yocazeu4jATJlaA0GYFKWMqDdvYemoSnF2pXgLVA==}
+    dev: false
+
+  /xmldom/0.6.0:
+    resolution: {integrity: sha512-iAcin401y58LckRZ0TkI4k0VSM1Qg0KGSc3i8rU+xrxe19A/BN1zHyVSJY7uoutVlaTSzYyk/v5AmkewAP7jtg==}
+    engines: {node: '>=10.0.0'}
+    dev: false
